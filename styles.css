@@ -1,0 +1,73 @@
+body {
+    background-color: #31081F;
+}
+/*----------------------------------------------------------------------------------*/
+/*add task button fonts + colors & change on hover*/
+.btn.addtaskbutton{
+    background-color: #F2B5D4;
+    color: #31081F;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px solid #F2B5D4;
+    font-family: "meursault-variable", serif;
+    font-variation-settings: 'wdth' 100, 'wght' 700;
+}
+.btn.addtaskbutton:hover {
+    background-color: #31081F;
+    color: #F2B5D4;
+}
+/*----------------------------------------------------------------------------------*/
+/*clear all tasks button fonts + colors & change on hover*/
+.btn.clearalltasksbutton {
+    background-color: #F2B5D4;
+    color: #31081F;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid #F2B5D4;
+    font-family: "meursault-variable", serif;
+    font-variation-settings: 'wdth' 100, 'wght' 700;
+}
+
+.btn.btn.clearalltasksbutton:hover {
+    background-color: #31081F;
+    color: #F2B5D4;
+}
+/*----------------------------------------------------------------------------------*/
+/* title font + colors + margins */
+.titlefont {
+    color: #F2B5D4;
+    font-family: "ltc-hess-monoblack", serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 50px;
+    margin: 30px;
+}
+/*----------------------------------------------------------------------------------*/
+/*enter your task input box styling - fonts + colors*/
+.entertaskbutton {
+    color: #31081F;
+    font-size: 20px;
+    font-style: bold;
+    border: 5px solid #F2B5D4;
+    font-family: "meursault-variable", serif;
+    font-variation-settings: 'wdth' 100, 'wght' 700;
+}
+/*----------------------------------------------------------------------------------*/
+/*task item styling - background and border colors*/
+.list-group-item {
+    color: white;
+    background-color: #F2B5D475;
+    border: 3px solid #F2B5D4;
+}
+/*----------------------------------------------------------------------------------*/
+/*checkmark button styling - pink and maroon on hover*/
+.btn.checkmarkbutton {
+    background-color: #F2B5D4;
+    color: #31081F;
+    border: 2px solid #F2B5D4;
+}
+.btn.checkmarkbutton:hover {
+    background-color: #31081F;
+    color: #F2B5D4;
+}
+/*----------------------------------------------------------------------------------*/

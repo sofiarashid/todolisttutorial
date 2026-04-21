@@ -12,20 +12,22 @@
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/gpw1gdb.css">
     </head>
 
     <body>
         <header></header>
         <main class="container mt-5">
             <div class="row justify-content-center">
+                <h2 class="titlefont text-center">°｡⋆ ☆ - To Do List - ☆ ⋆｡°</h2>
                 <div class="col-md-8 col-lg-6">
-                    <h2 class="text-center"><u>To Do List</u></h2>
                     <div class="row">
                         <div class="col-8">
-                            <input type="text" id="taskInput" class="form-control" placeholder="Enter your task!"/>
+                            <input type="text" id="taskInput" class="form-control entertaskbutton" placeholder="Enter your task!"/>
                         </div>
                         <div class="col-4">
-                            <button id="addTaskBtn" class="btn btn-primary w-100">Add Task</button>
+                            <button id="addTaskBtn" class="btn addtaskbutton w-100">Add Task</button>
                         </div>
                     </div>
                 </div>
@@ -37,7 +39,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <button id="clearTaskBtn" class="btn btn-danger w-100 mt-3">Clear All Tasks</button>
+                    <button id="clearTaskBtn" class="btn clearalltasksbutton w-100 mt-3">Clear All Tasks</button>
                 </div>
             </div>
 

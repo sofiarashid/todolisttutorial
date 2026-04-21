@@ -31,8 +31,20 @@ function displayTasks() {
             'align-items-center'
         )
         //set inner html of the list item with a task and remove button
-        li.innerHTML = `${task} <button class='btn btn-success btn-sm' onclick='removeTask(${index})'>✔</button>`
+        li.innerHTML = `${task} <button class='btn checkmarkbutton btn-sm' onclick='removeTask(${index})'>✓</button>`
         //append the new task list to the html
         taskList.appendChild(li)
     })
 }
+
+function removeTask(index) {
+    //remove a single task from the array using index
+    tasks.splice(index, 1)
+    //update task list display
+    displayTasks()
+}
+
+document.getElementById('clearTaskBtn').addEventListener('click', function() {
+    tasks = []
+    displayTasks()
+})
