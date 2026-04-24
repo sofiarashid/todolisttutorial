@@ -1,5 +1,11 @@
 body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("background.png");
     background-color: #31081F;
+    background-repeat: no-repeat;
+    background-position: left bottom !important;
+    background-size: 800px;
 }
 /*----------------------------------------------------------------------------------*/
 /*add task button fonts + colors & change on hover*/
@@ -71,3 +77,18 @@ body {
     color: #F2B5D4;
 }
 /*----------------------------------------------------------------------------------*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+    right: 10%;
+    background-color: #F2B5D4;
+    color: #31081F;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px solid #F2B5D4;
+    font-family: "meursault-variable", serif;
+    font-variation-settings: 'wdth' 100, 'wght' 700;
+}
