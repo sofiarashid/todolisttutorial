@@ -45,7 +45,7 @@ body {
     color: #F2B5D4;
 }
 /*----------------------------------------------------------------------------------*/
-/* title font + colors + margins */
+/* titles font + colors + margins */
 .titlefont {
     color: #F2B5D4;
     font-family: "ltc-hess-monoblack", serif;
@@ -53,6 +53,9 @@ body {
     font-style: bold;
     font-size: 50px;
     margin: 30px;
+}
+.ctmarginsonly {
+    margin-top: 30px;
 }
 /*----------------------------------------------------------------------------------*/
 /*enter your task input box styling - fonts + colors*/
@@ -65,11 +68,24 @@ body {
     font-variation-settings: 'wdth' 100, 'wght' 700;
 }
 /*----------------------------------------------------------------------------------*/
-/*task item styling - background and border colors*/
+/*task item + counter styling - background and border colors*/
+/*og task item color, bg color, border*/
 .list-group-item {
     color: white;
-    background-color: #F2B5D4;
+    background-color: #9e6985;
     border: 3px solid #F2B5D4;
+}
+/* completed task styling */
+.completed {
+    color: white;
+    background-color: #9e6985;
+    border: 3px solid #F2B5D4;
+}
+/* task counter styling */
+.countertext {
+    color: #F2B5D4;
+    font-family: "meursault-variable", serif;
+    font-size: 25px;
 }
 /*----------------------------------------------------------------------------------*/
 /*checkmark button styling - pink and maroon on hover*/
@@ -83,18 +99,19 @@ body {
     color: #F2B5D4;
 }
 /*----------------------------------------------------------------------------------*/
+/*footer*/
 footer {
     position: fixed;
-    bottom: 0;
-    width: 25%;
+    bottom: 15px;
+    right: 15px;
+    width: 275px;
     text-align: center;
     padding: 10px 0;
-    right: 0%;
-    background-color: #F2B5D4;
+    background-color: #F6E1EA;
     color: #31081F;
     font-size: 20px;
     border-radius: 15px;
-    border: 5px solid #F2B5D4;
+    border: 5px solid #F6E1EA;
     font-family: "meursault-variable", serif;
     font-variation-settings: 'wdth' 100, 'wght' 700;
 }
@@ -103,3 +120,4 @@ footer {
 .stars {
     margin: 0 10px;
 }
+/*----------------------------------------------------------------------------------*/
