@@ -17,6 +17,8 @@ body {
     border: 5px solid #F2B5D4;
     font-family: "meursault-variable", serif;
     font-variation-settings: 'wdth' 100, 'wght' 700;
+    align-items: center;
+    justify-content: center;
 }
 .btn.addtaskbutton:hover {
     background-color: #31081F;
@@ -25,6 +27,10 @@ body {
 /*----------------------------------------------------------------------------------*/
 /*clear all tasks button fonts + colors & change on hover*/
 .btn.clearalltasksbutton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     background-color: #F2B5D4;
     color: #31081F;
     font-size: 30px;
@@ -34,7 +40,7 @@ body {
     font-variation-settings: 'wdth' 100, 'wght' 700;
 }
 
-.btn.btn.clearalltasksbutton:hover {
+.btn.clearalltasksbutton:hover {
     background-color: #31081F;
     color: #F2B5D4;
 }
@@ -83,7 +89,7 @@ footer {
     width: 25%;
     text-align: center;
     padding: 10px 0;
-    right: 10%;
+    right: 0%;
     background-color: #F2B5D4;
     color: #31081F;
     font-size: 20px;
@@ -91,4 +97,9 @@ footer {
     border: 5px solid #F2B5D4;
     font-family: "meursault-variable", serif;
     font-variation-settings: 'wdth' 100, 'wght' 700;
+}
+/*----------------------------------------------------------------------------------*/
+/* stars image styling by the clear all tasks button */
+.stars {
+    margin: 0 10px;
 }
