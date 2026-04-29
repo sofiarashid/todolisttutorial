@@ -38,6 +38,7 @@ body {
     border: 5px solid #F2B5D4;
     font-family: "meursault-variable", serif;
     font-variation-settings: 'wdth' 100, 'wght' 700;
+    margin-bottom: 25px;
 }
 
 .btn.clearalltasksbutton:hover {
