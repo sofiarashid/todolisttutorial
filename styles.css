@@ -78,8 +78,9 @@ body {
 /* completed task styling */
 .completed {
     color: white;
-    background-color: #9e6985;
+    background-color: #9e698599;
     border: 3px solid #F2B5D4;
+    text-decoration: line-through;
 }
 /* task counter styling */
 .countertext {
@@ -97,6 +98,18 @@ body {
 .btn.checkmarkbutton:hover {
     background-color: #31081F;
     color: #F2B5D4;
+}
+/*----------------------------------------------------------------------------------*/
+/* x button styling - dark bg, light color*/
+.btn.btn-danger {
+    background-color: #240909;
+    color: #F2B5D4;
+    border: 2px solid #F2B5D4;
+}
+
+.btn.btn-danger:hover {
+    background-color: #F2B5D4;
+    color: #240909;
 }
 /*----------------------------------------------------------------------------------*/
 /*footer*/
@@ -120,4 +133,3 @@ footer {
 .stars {
     margin: 0 10px;
 }
-/*----------------------------------------------------------------------------------*/
