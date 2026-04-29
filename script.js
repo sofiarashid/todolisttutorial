@@ -123,7 +123,7 @@ function displayTasks() {
 
     // counter update
     document.getElementById('taskCounter').textContent =
-        `Tasks Left: ${tasks.length - completedCount} | Completed: ${completedCount}`
+        `Active Tasks: ${tasks.length - completedCount} | ⋆•☆•⋆ | Completed Tasks: ${completedCount}`
 }
 
 
